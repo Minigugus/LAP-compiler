@@ -1,6 +1,6 @@
 # LAP Compiler
 
-> A very simple LAP to multiple language (C or JS) compiler created for educationnal purpose.
+> A very simple LAP (pseudo-code) to multiple language (C or JS) compiler created for educationnal purpose.
 
 The LAP compiled by this compiler does not follow a standard.
 
@@ -75,14 +75,14 @@ void EntrerTemps(int* HH, int* MM, int* SS)
   int encoreUnTest;
 
   // INSTRUCTIONS //
-  scanf("%d", &HH);
-  scanf("%d", &MM);
-  scanf("%d", &SS);
+  printf("HH : "); scanf("%d", &HH);
+  printf("MM : "); scanf("%d", &MM);
+  printf("SS : "); scanf("%d", &SS);
 }
 
 int Droite(int a, int b, int x)
 {
-  // DÉCLARATION DES VARIABLES //
+  /* (Pas de variables locales) */
 
   // INSTRUCTIONS //
   return a * x + b;
@@ -96,7 +96,7 @@ void main()
   int Seconde;
   int test;
   char* autreTest;
-  char* lol[200];
+  char lol[200];
 
   // INSTRUCTIONS //
   while (Seconde > 60)
@@ -129,9 +129,9 @@ function EntrerTemps(HH, MM, SS)
   let encoreUnTest;
 
   // INSTRUCTIONS //
-  /* TODO : Lecture depuis le clavier. [ENTRER(HH, MM, SS)] */
-  /* TODO : Lecture depuis le clavier. [ENTRER(HH, MM, SS)] */
-  /* TODO : Lecture depuis le clavier. [ENTRER(HH, MM, SS)] */
+  HH = prompt("HH : ");
+  MM = prompt("MM : ");
+  SS = prompt("SS : ");
 }
 
 function Droite(a, b, x)
