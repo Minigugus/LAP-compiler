@@ -1,0 +1,14 @@
+ACTION Somme
+  VAR a, b : Numérique
+  FONCTION Somme(a : Numérique, b : Numérique) : Numérique
+  DEBUT
+    RETOURNER a + b
+  FINFONCTION
+DEBUT
+  ENTRER a, b
+  SI a < 0 ALORS
+    % Opérateur `-` dans `-[expression]` pas encore implémenté ^^' %
+    a = a * (0 - 1)
+  FSI
+  RETOURNER Somme(a, b)
+FINACTION

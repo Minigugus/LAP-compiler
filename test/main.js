@@ -3,7 +3,7 @@
 const path = require('path');
 const compiler = require('../lib');
 
-compiler(path.join(__dirname, '../exemple.lap'))
+compiler(path.join(__dirname, '../example/complete.lap'))
 	.then(printer => {
 		console.info('# C');
 		console.info('```c');
