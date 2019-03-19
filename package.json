@@ -1,0 +1,32 @@
+{
+  "name": "lap-compiler",
+  "description": "A very simple LAP (pseudo-code) compiler built for educational purpose.",
+  "authors": "Florentin Magniez",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minigugus/LAP-compiler.git"
+  },
+  "keywords": [
+    "compiler",
+    "parser",
+    "lexer",
+    "educational"
+  ],
+  "author": "Florentin Magniez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minigugus/LAP-compiler/issues"
+  },
+  "homepage": "https://github.com/Minigugus/LAP-compiler#readme"
+}
